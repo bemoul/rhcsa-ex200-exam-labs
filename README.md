@@ -59,6 +59,13 @@ Free, hands-on practice labs for the **Red Hat Certified System Administrator (R
 3. [Solutions](./mock-exam/solutions.md)
 
 ---
+## Disclaimer
+
+This is an independent, community project. It is not affiliated with, endorsed by, or sponsored by Red Hat, Inc.
+
+All tasks are original practice material based on the publicly available [EX200 exam objectives](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam). This repository does not contain real exam questions or any content covered by the Red Hat exam NDA.
+
+Red Hat, Red Hat Enterprise Linux, RHEL and RHCSA are trademarks of Red Hat, Inc. in the U.S. and other countries.
 
 ## Contributing
 
