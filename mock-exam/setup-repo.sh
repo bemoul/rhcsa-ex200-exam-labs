@@ -1,6 +1,6 @@
 #!/bin/bash
 # Mock exam: repo server setup. Run as root on repo.rhcsa.home.
-# Needs: RHEL ISO attached as CD/DVD, internet access (for container images).
+# Needs: full DVD ISO (RHEL, Rocky or AlmaLinux) attached as CD/DVD, internet access (for container images).
 set -e
 
 # Hostnames

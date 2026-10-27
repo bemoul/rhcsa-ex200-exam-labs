@@ -3,7 +3,7 @@
 ## Key-based Authentication (node1 to node2)
 
 ### Allow root SSH login (on node2)
-RHEL 9 and 10 block root password login by default, so `ssh-copy-id` as root fails until this is changed.
+RHEL, Rocky and AlmaLinux 9 and 10 block root password login by default, so `ssh-copy-id` as root fails until this is changed.
 ```bash
 grep -r PermitRootLogin /etc/ssh/sshd_config /etc/ssh/sshd_config.d/
 ```

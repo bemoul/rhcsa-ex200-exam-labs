@@ -4,7 +4,7 @@ Thanks for helping make this the best free RHCSA practice resource. Every fix, n
 
 ## Ways to Contribute
 
-- **Report a problem:** a wrong command, a broken link, a task that doesn't work on RHEL 10 or 9. [Open an issue](https://github.com/harunaadoga/rhcsa-ex200-exam-labs/issues/new).
+- **Report a problem:** a wrong command, a broken link, a task that doesn't work on RHEL, Rocky Linux or AlmaLinux 9 or 10. [Open an issue](https://github.com/harunaadoga/rhcsa-ex200-exam-labs/issues/new).
 - **Fix something:** typos, unclear wording, incorrect solutions.
 - **Add tasks:** new practice tasks for an existing objective, with a matching solution.
 - **Share your experience:** passed the exam using these labs? Tell us in an issue. It helps others.
@@ -13,7 +13,7 @@ Thanks for helping make this the best free RHCSA practice resource. Every fix, n
 
 - **No exam dumps.** Never submit real exam questions or anything covered by the Red Hat exam NDA. Write original tasks based on the [public exam objectives](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam).
 - **Keep solutions simple.** Use standard commands an exam candidate would type. No clever one-liners or extra tools.
-- **Test before you submit.** Run every task and solution on a clean RHEL VM and check it survives a reboot.
+- **Test before you submit.** Run every task and solution on a clean RHEL, Rocky Linux or AlmaLinux VM and check it survives a reboot.
 
 
 ## How to Submit a Change
@@ -70,7 +70,7 @@ git push origin fix-lvm-solution
 ### 6. Open a pull request
 Go to your fork on GitHub and click **Compare & pull request**. In the description, say:
 - what you changed and why
-- which RHEL version you tested on
+- which distro and version you tested on (e.g. Rocky Linux 10)
 
 The maintainer will review it and either merge it or reply with feedback.
 

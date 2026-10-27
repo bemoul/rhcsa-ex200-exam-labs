@@ -4,11 +4,12 @@
 
 | VM | IP | Extra disks |
 |----|----|-------------|
-| repo | 192.168.70.5 | none (attach the RHEL ISO as CD/DVD) |
+| repo | 192.168.70.5 | none (attach the full DVD ISO as CD/DVD) |
 | node1 | 192.168.70.10 | none |
 | node2 | 192.168.70.20 | /dev/vdb 2GB, /dev/vdc 1GB |
 
-- RHEL 10, minimal install, 2 vCPU, 2GB RAM, 20GB disk each. Free [Red Hat Developer subscription](https://developers.redhat.com/register).
+- RHEL 10, Rocky Linux 10 or AlmaLinux 10, minimal install, 2 vCPU, 2GB RAM, 20GB disk each. Use the same distro on all 3 VMs.
+- The repo server needs the **full DVD ISO** (not the boot or minimal ISO), since it copies BaseOS and AppStream from it.
 - All on one network: `192.168.70.0/24`, gateway `192.168.70.1`.
 - Set the IPs during install. The repo server also needs internet access.
 - Disks may show as `/dev/sdb` and `/dev/sdc` on some hypervisors. If so, change `vdc` in `prep-node2.sh` and use `sdb` in the exam.

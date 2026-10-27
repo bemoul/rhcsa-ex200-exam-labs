@@ -3,7 +3,7 @@
 ## Task 1: Configure Repositories
 1.1 Install Flatpak
 1.2 Add Flathub repository
-1.3 Add RHEL Flatpak repository
+1.3 Add the RHEL Flatpak repository (`https://flatpaks.redhat.io/rhel.flatpakrepo`)
 1.4 Verify all remotes
 
 ## Task 2: Install & Manage Packages

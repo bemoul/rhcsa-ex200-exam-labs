@@ -1,6 +1,8 @@
 # Solutions - 11 Manage Software - Flatpak (RHEL 10)
 
 > Run as root on node1. Installing as root installs system-wide.
+>
+> On Rocky Linux or AlmaLinux you can still add the RHEL remote, but installing apps from it needs a Red Hat account (`podman login registry.redhat.io`). Flathub works on all three.
 
 ## Task 1: Configure Repositories
 

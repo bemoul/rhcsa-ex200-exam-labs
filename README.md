@@ -2,7 +2,7 @@
 
 Free, hands-on practice labs for the **Red Hat Certified System Administrator (RHCSA)** exam (EX200), organised by the official exam objectives. Every lab has a matching video walkthrough on YouTube.
 
-**Covers RHEL 9.x and RHEL 10.x** where applicable.
+**Works on RHEL, Rocky Linux and AlmaLinux, versions 9 and 10.**
 
 [![YouTube Playlist](https://img.shields.io/badge/YouTube-RHCSA%20Playlist-red?logo=youtube)](https://www.youtube.com/playlist?list=PLiI_-JOspy6FuSPXSipE0xE4oC2XXYyuI)
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue)
@@ -18,14 +18,26 @@ Free, hands-on practice labs for the **Red Hat Certified System Administrator (R
 
 ## Exam Versions
 
-| Version | Extra objective |
+| Exam version | Extra objective |
 |---------|-----------------|
-| RHEL 9  | Manage Containers (Podman) |
-| RHEL 10 | Manage Software with Flatpak |
+| RHCSA on RHEL 9 | Manage Containers (Podman) |
+| RHCSA on RHEL 10 | Manage Software with Flatpak |
+
+## Which Linux to Use
+
+The exam runs on RHEL, but Rocky Linux and AlmaLinux are rebuilds of RHEL, so the same commands work on all three.
+
+| Distro | Cost | Notes |
+|--------|------|-------|
+| [RHEL](https://developers.redhat.com/register) | Free developer subscription | Exactly what the exam uses |
+| [Rocky Linux](https://rockylinux.org/download) | Free | No account needed |
+| [AlmaLinux](https://almalinux.org/get-almalinux/) | Free | No account needed |
+
+Use the same major version as your exam: 9 for the RHEL 9 exam, 10 for the RHEL 10 exam.
 
 ## How to Use
 
-1. Set up a lab with 2 to 3 RHEL VMs (`node1`, `node2`, optional repo server)
+1. Set up a lab with 2 to 3 VMs (`node1`, `node2`, optional repo server) running RHEL, Rocky Linux or AlmaLinux
 2. Work through each objective in order
 3. Try every task **before** opening the solution
 4. Watch the matching video if you get stuck

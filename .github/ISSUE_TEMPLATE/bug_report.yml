@@ -19,10 +19,15 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: RHEL version
+      label: Distro and version
       options:
         - RHEL 10
+        - Rocky Linux 10
+        - AlmaLinux 10
         - RHEL 9
+        - Rocky Linux 9
+        - AlmaLinux 9
+        - Other
     validations:
       required: true
   - type: textarea
