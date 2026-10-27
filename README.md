@@ -14,6 +14,7 @@ Free, hands-on practice labs for the **Red Hat Certified System Administrator (R
 - [Free RHCSA Hands-on YouTube Playlist](https://www.youtube.com/playlist?list=PLiI_-JOspy6FuSPXSipE0xE4oC2XXYyuI)
 - [Official RHCSA Exam Objectives](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam)
 - [Mock Exam](./mock-exam/exam.md)
+- [Quick Reference](./docs/quick-reference.md)
 
 ## Exam Versions
 
