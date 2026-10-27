@@ -14,7 +14,7 @@ Thanks for helping make this the best free RHCSA practice resource. Every fix, n
 - **No exam dumps.** Never submit real exam questions or anything covered by the Red Hat exam NDA. Write original tasks based on the [public exam objectives](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam).
 - **Keep solutions simple.** Use standard commands an exam candidate would type. No clever one-liners or extra tools.
 - **Test before you submit.** Run every task and solution on a clean RHEL VM and check it survives a reboot.
-- **Mark the version** if a task only applies to RHEL 9 or RHEL 10.
+
 
 ## How to Submit a Change
 
