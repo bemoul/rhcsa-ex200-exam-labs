@@ -1,0 +1,31 @@
+name: Bug report
+description: A task, solution or script that is wrong or doesn't work
+labels: ["bug"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Which file?
+      placeholder: e.g. solutions/04-local-storage/tasks.md or mock-exam/prep-node2.sh
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: Include the command you ran and the error you got.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: RHEL version
+      options:
+        - RHEL 10
+        - RHEL 9
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix (optional)

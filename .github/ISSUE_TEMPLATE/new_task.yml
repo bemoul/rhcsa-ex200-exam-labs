@@ -1,0 +1,34 @@
+name: New task idea
+description: Suggest a new practice task
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: objective
+    attributes:
+      label: Exam objective
+      options:
+        - 01 Essential Tools
+        - 02 Shell Scripts
+        - 03 Operate Running Systems
+        - 04 Local Storage
+        - 05 File Systems
+        - 06 Deploy and Maintain
+        - 07 Networking
+        - 08 Users and Groups
+        - 09 Security
+        - 10 Containers (RHEL 9)
+        - 11 Manage Software (RHEL 10)
+        - Mock exam
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: The task
+      description: Write it the way a candidate would see it, with exact names, sizes and paths. No real exam questions.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution (optional)
