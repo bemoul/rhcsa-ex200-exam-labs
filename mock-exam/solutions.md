@@ -234,7 +234,7 @@ Wait for the relabel and reboot, then log in with `flamingo`.
 ### 16. Resize a logical volume
 ```bash
 lvs                                     # datalv is 200M
-df -hT /data                            # xfs
+df -hT /data                            # ext4
 lvresize -r -L 300M /dev/datavg/datalv
 
 # Verify

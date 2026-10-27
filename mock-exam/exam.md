@@ -120,4 +120,4 @@ As user `devops`:
 
 ---
 
-**Finished?** Reboot both nodes, check every task again, then compare with the [solutions](./solutions.md).
+**Finished?** Reboot both nodes, then grade yourself as root: run `bash grade-node1.sh` on node1 and `bash grade-node2.sh` on node2. Then compare with the [solutions](./solutions.md).

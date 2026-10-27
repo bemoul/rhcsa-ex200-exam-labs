@@ -16,9 +16,9 @@ wipefs -a /dev/vdc
 pvcreate /dev/vdc
 vgcreate datavg /dev/vdc
 lvcreate -y -L 200M -n datalv datavg
-mkfs.xfs /dev/datavg/datalv
+mkfs.ext4 /dev/datavg/datalv
 mkdir -p /data
-echo "/dev/datavg/datalv  /data  xfs  defaults  0 0" >> /etc/fstab
+echo "/dev/datavg/datalv  /data  ext4  defaults  0 0" >> /etc/fstab
 systemctl daemon-reload
 mount -a
 
