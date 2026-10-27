@@ -8,15 +8,15 @@
 - Put SELinux in permissive mode on node2.
 - On node1 ensure network service is enabled and starts on boot.
 
-## Task 4: Persistent Journaling
+## Task 3: Persistent Journaling
 - Configure persistent journaling on both servers to retain logs across reboots.
 
-## Task 5: Process Scheduling
+## Task 4: Process Scheduling
 - Start a stress-ng process on node1 with niceness 19.
 - Adjust the niceness value to 10.
 - Terminate the stress-ng process.
 
-## Task 6: File Permissions & ACLs
+## Task 5: File Permissions & ACLs
 - Copy /etc/fstab to /var/tmp.
 - Set owner to root.
 - Remove execute permissions.
@@ -25,5 +25,5 @@
   - maryam: no access
   - Others: read-only
 
-## Task 7: Secure File Transfer
+## Task 6: Secure File Transfer
 - On node1, create `node1-file.ext` and scp it to user hadoga's home on node2.

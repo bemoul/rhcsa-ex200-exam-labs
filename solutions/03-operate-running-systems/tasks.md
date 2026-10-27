@@ -50,7 +50,7 @@ systemctl is-enabled NetworkManager
 systemctl is-active NetworkManager
 ```
 
-## Task 4: Persistent Journaling (node1 and node2)
+## Task 3: Persistent Journaling (node1 and node2)
 
 ```bash
 mkdir -p /var/log/journal
@@ -62,7 +62,7 @@ reboot
 journalctl --list-boots     # shows more than one boot after reboot
 ```
 
-## Task 5: Process Scheduling (node1)
+## Task 4: Process Scheduling (node1)
 
 ```bash
 dnf install -y stress-ng
@@ -86,7 +86,7 @@ pkill stress-ng
 ps -C stress-ng
 ```
 
-## Task 6: File Permissions & ACLs
+## Task 5: File Permissions & ACLs
 
 ```bash
 cp /etc/fstab /var/tmp/
@@ -101,7 +101,7 @@ setfacl -m o::r /var/tmp/fstab
 getfacl /var/tmp/fstab
 ```
 
-## Task 7: Secure File Transfer (node1)
+## Task 6: Secure File Transfer (node1)
 
 ```bash
 touch node1-file.ext

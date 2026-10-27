@@ -6,6 +6,6 @@
 - Enable SSH root login and test
 
 ## HTTPD + SELinux
-- Web server on node1 listening on port 85
+- The web server on node1 (192.168.70.10) listens on port 85. Make it reachable on that port.
 - Fix SELinux context for /var/www/html if needed
-- Test with curl or browser
+- Test with `curl http://192.168.70.10:85`

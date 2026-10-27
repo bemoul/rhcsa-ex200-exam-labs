@@ -21,7 +21,7 @@ df -h /mnt/devops_lv
 
 ### Create user bobby
 ```bash
-useradd -M -b /mnt/netdir bobby
+useradd -u 2060 -M -b /mnt/netdir bobby
 echo "bobby:hoppy" | chpasswd
 
 # Verify

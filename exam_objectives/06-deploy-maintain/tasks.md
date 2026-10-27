@@ -5,7 +5,9 @@
 - Use `at` to write "This task was easy!" to `/at-files/at.txt` in 2 minutes.
 
 ## YUM Repositories
-Configure BaseOS and AppStream repos on node1.
+Configure these repos on node1:
+- BaseOS: `http://repo.rhcsa.home/repo/BaseOS/`
+- AppStream: `http://repo.rhcsa.home/repo/AppStream/`
 
 ## Chrony
 Set up chrony to sync with `server.rhel.com`.

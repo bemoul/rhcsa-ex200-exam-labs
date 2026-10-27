@@ -1,5 +1,7 @@
 # 10 - Manage Containers (RHEL 9)
 
+Prep: create user `haruna` on node2 with password `hoppy`.
+
 ## Task 1: Container Image Creation
 As user haruna on node2, build image `web_image` using Containerfile from http://repo.rhcsa.home/containers/Containerfile
 
